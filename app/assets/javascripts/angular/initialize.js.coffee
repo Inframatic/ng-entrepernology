@@ -1,0 +1,1 @@
+@ng-entrepernology = angular.module 'ng-entrepernology', []
