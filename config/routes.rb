@@ -1,10 +1,10 @@
 NgEntrepernology::Application.routes.draw do
+  namespace :api do
+    namespace :v1 do
+      resources :startups
+    end
+  end
 
-  get "startups/index"
-  get "startups/show"
-  get "startups/edit"
-  get "startups/new"
-  get "startups/create"
-  get "startups/update"
-  get "startups/destroy"
+  root :to => "static#root"
+  match '*anything' => "static#root"
 end

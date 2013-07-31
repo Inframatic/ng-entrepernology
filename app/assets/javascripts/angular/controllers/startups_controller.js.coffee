@@ -1,4 +1,4 @@
-@photogur.controller 'StartupsController', ($scope, Startups) ->
+@ngEntreprenology.controller 'StartupsController', ($scope, Startups) ->
   $scope.startups = Startups
 
   $scope.createStartups = ->
