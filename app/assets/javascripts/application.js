@@ -10,12 +10,16 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+// VENDOR LIBRARIES
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require_tree .
 //= require angular.min
-//= require angle-up
-//= require_tree ./angular
+//= require angular-resource.min
+
 //= require hamlcoffee
+
+// APPLICATION FILES
 //= require_tree ../templates
+//= require ./angular/initialize
+//= require_tree ./angular
+//= require_tree .

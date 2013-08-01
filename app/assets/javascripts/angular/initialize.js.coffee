@@ -2,7 +2,7 @@
 
 @ngEntrepernology.config ($routeProvider, $locationProvider) ->
 
-$locationProvider.html5Mode(true)
+  $locationProvider.html5Mode(true)
 
   $routeProvider
   .when("/",                  templateUrl: "startups/index", controller: "StartupsController")

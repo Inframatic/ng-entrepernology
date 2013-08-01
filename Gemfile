@@ -28,6 +28,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'angular-rails'
+gem 'haml'
+gem 'haml_coffee_assets'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -43,7 +45,6 @@ group :assets do
 
 
   # Required by .hamlc
-  gem 'haml_coffee_assets'
   gem 'execjs'
 end
 # Use ActiveModel has_secure_password

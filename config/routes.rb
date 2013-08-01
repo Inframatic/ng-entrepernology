@@ -6,5 +6,5 @@ NgEntrepernology::Application.routes.draw do
   end
 
   root :to => "static#root"
-  match '*anything' => "static#root"
+  get '*anything' => "static#root"
 end
